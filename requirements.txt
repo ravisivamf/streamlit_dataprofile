@@ -5,6 +5,5 @@ matplotlib==3.7.0
 pip-tools
 streamlit
 streamlit-pandas-profiling
-ydata-profiling
 openpyxl
 xlrd
