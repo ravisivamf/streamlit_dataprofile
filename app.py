@@ -1,6 +1,6 @@
 import streamlit as st 
 import pandas as pd 
-from ydata_profiling import ProfileReport
+#from ydata_profiling import ProfileReport
 from streamlit_pandas_profiling import st_profile_report
 import sys
 import os
@@ -56,14 +56,14 @@ if uploaded_file is not None:
                 
                 
             # generate report
-            with st.spinner('Generating Report'):
-                pr = ProfileReport(df,
-                                minimal=minimal,
-                                dark_mode=dark_mode,
-                                orange_mode=orange_mode
-                                )
+#            with st.spinner('Generating Report'):
+#                pr = ProfileReport(df,
+#                                minimal=minimal,
+#                                dark_mode=dark_mode,
+#                                orange_mode=orange_mode
+#                                )
                 
-            st_profile_report(pr)
+            st_profile_report(df)
         else:
             st.error(f'Maximum allowed filesize is 10 MB. But received {filesize} MB')
             
