@@ -5,6 +5,8 @@ matplotlib==3.7.0
 streamlit
 ydata-profiling 
 visions==0.7.4
+pandas-profiling==3.2.0 
+visions==0.7.4
 streamlit-pandas-profiling 
 visions[type-image-path]==0.7.4
 openpyxl
