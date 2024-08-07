@@ -4,6 +4,6 @@ scipy
 matplotlib==3.7.0
 streamlit
 ydata-profiling
-streamlit-pandas-profiling
+streamlit-pandas-profiling visions[type-image-path]==0.7.4
 openpyxl
 xlrd
